@@ -1,0 +1,106 @@
+========================================
+NARUTO AUTO-REPLY AI CHATBOT
+HOW TO RUN GUIDE
+========================================
+
+SYSTEM REQUIREMENTS
+-------------------
+1. Windows 10 / 11
+2. Python 3.9 or above
+3. Google Chrome
+4. Stable Internet Connection
+5. WhatsApp Web Logged In
+
+----------------------------------------
+
+STEP 1: CLONE THE REPOSITORY
+----------------------------
+git clone https://github.com/<your-username>/Naruto-Auto-Reply-AI-Chatbot.git
+cd Naruto-Auto-Reply-AI-Chatbot/NARUTO#1
+
+----------------------------------------
+
+STEP 2: CREATE VIRTUAL ENVIRONMENT (RECOMMENDED)
+------------------------------------------------
+python -m venv venv
+venv\Scripts\activate
+
+----------------------------------------
+
+STEP 3: INSTALL DEPENDENCIES
+----------------------------
+pip install -r requirements.txt
+
+----------------------------------------
+
+STEP 4: SET OPENAI API KEY
+--------------------------
+Create a file named `.env` in the root directory.
+
+Add this line:
+OPENAI_API_KEY=your_openai_api_key_here
+
+----------------------------------------
+
+STEP 5: OPEN WHATSAPP WEB
+-------------------------
+1. Open Google Chrome
+2. Go to https://web.whatsapp.com
+3. Login using QR code
+4. Open the chat where auto-reply is required
+5. Keep the chat visible on screen
+6. Do NOT minimize Chrome
+
+----------------------------------------
+
+STEP 6: SCREEN CALIBRATION (FIRST RUN ONLY)
+-------------------------------------------
+Run the bot:
+
+python main.py
+
+You will be asked to calibrate:
+1. TOP of chat messages
+2. BOTTOM of chat messages
+3. MESSAGE INPUT BOX
+
+IMPORTANT:
+- Move mouse carefully
+- Press ENTER only after positioning correctly
+- TOP and BOTTOM must have different Y values
+
+----------------------------------------
+
+STEP 7: RUN THE BOT
+-------------------
+After calibration completes, the bot will:
+
+✔ Copy chat history automatically
+✔ Detect last sender
+✔ Generate a humorous Naruto-style roast
+✔ Paste and send reply automatically
+
+----------------------------------------
+
+IMPORTANT NOTES
+---------------
+• Do NOT move mouse while bot is running
+• Keep screen scaling at 100%
+• Do NOT touch keyboard unless stopping bot
+• Move mouse to top-left corner to EMERGENCY STOP
+
+----------------------------------------
+
+STOP THE BOT
+------------
+Press CTRL + C in terminal
+OR
+Move mouse to top-left screen corner
+
+----------------------------------------
+
+DISCLAIMER
+----------
+This project is for educational purposes only.
+Use responsibly.
+========================================

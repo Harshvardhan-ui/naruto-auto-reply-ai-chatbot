@@ -1,0 +1,132 @@
+What is this project?
+
+Naruto Auto-Reply AI Chatbot is a desktop automation + AI project that automatically reads chat messages from WhatsApp Web and sends humorous, roast-style replies using an AI model.
+
+The chatbot behaves like a virtual character named Naruto, who responds in a funny and witty way based on the latest message in the chat — without human intervention.
+
+🎯 What problem does this project solve?
+
+Normally:
+
+Humans must read messages
+
+Think of a reply
+
+Type and send it manually
+
+This project:
+
+Reads the chat automatically
+
+Understands who sent the last message
+
+Generates a smart, funny reply
+
+Sends it automatically
+
+➡️ It demonstrates AI-driven automation of real-world applications.
+
+🧠 How does it work? (High-level)
+
+The project works in 5 clear stages:
+
+1️⃣ Desktop Automation
+
+Using PyAutoGUI, the bot:
+
+Opens the chat application (WhatsApp Web)
+
+Moves the mouse automatically
+
+Selects chat messages
+
+Clicks the message input box
+
+Presses keyboard shortcuts like Ctrl+C and Enter
+
+👉 This allows the bot to interact with applications just like a human.
+
+2️⃣ Chat History Extraction
+
+Using clipboard operations:
+
+Selected chat text is copied
+
+Text is retrieved from the system clipboard
+
+This text becomes the input data for AI analysis.
+
+3️⃣ Message Analysis
+
+The bot:
+
+Reads the copied chat history
+
+Identifies who sent the last message
+
+Checks whether the message is from a target user
+
+This prevents unnecessary replies.
+
+4️⃣ AI Response Generation
+
+If the target user sent the message:
+
+Chat history is sent to OpenAI’s GPT model
+
+The AI generates a humorous Naruto-style roast reply
+
+The reply is copied to clipboard
+
+5️⃣ Automated Reply Sending
+
+Finally:
+
+The bot pastes the generated reply
+
+Presses Enter
+
+The message is sent automatically
+
+All steps repeat in a loop.
+
+⚙️ Technologies used
+Technology	Purpose
+Python	Core programming language
+PyAutoGUI	Mouse & keyboard automation
+Pyperclip	Clipboard access
+OpenAI API	AI text generation
+Logging	Debugging & monitoring
+Modular Architecture	Clean, scalable design
+🧩 Why is this project important?
+
+This project demonstrates:
+
+✔ Real-world automation
+✔ AI integration
+✔ Event-driven programming
+✔ Human-like system interaction
+✔ Error handling & logging
+✔ Software engineering practices
+
+It’s not just a chatbot, it’s an AI automation system.
+
+🧪 What makes it unique?
+
+Does not rely on WhatsApp APIs
+
+Works on any chat application with minimal changes
+
+Uses screen calibration instead of hard-coding
+
+Character-based AI personality (Naruto)
+
+Separation of stable and debug builds
+
+⚠️ Ethical & Educational Use
+
+Built for educational and research purposes
+
+Demonstrates automation concepts
+
+Not intended for misuse or spam
